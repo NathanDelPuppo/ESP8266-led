@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[ ] = "h12OT_OiBvAId-AAbbNtj_wCk1zhdDil";
-char ssid[ ] = "Freebox-AAD1EE";
-char pass[ ] = "carente2-fabellis@-exarmata6!-deglutiat#8";
+char auth[ ] = "authnameblynk";
+char ssid[ ] = "your_wifiname";
+char pass[ ] = "your_wifipassword";
 
 WidgetLED led1(V1);
 BlynkTimer timer;
